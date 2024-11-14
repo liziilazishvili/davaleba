@@ -1,0 +1,70 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+/* Import Web Fonts */
+@import url("//cdn.web-fonts.ge/fonts/bpg-gloria/css/bpg-gloria.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css");
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1 {
+    color: #3b5998;
+    font-family: "Roboto Slab", serif;
+}
+
+h2 {
+    color: #ff5722;
+    font-family: "BPG Gloria", sans-serif;
+}
+
+h3 {
+    color: #607d8b;
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}
+
+/* Paragraph */
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Font-specific Classes */
+.kablammo {
+    font-family: "Kablammo", system-ui;
+}
+
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.bpg-gloria {
+    font-family: "BPG Gloria", sans-serif;
+}
+
+.bpg-nino {
+    font-family: "BPG Nino Mtavruli", sans-serif;
+}
+
+/* Additional Text Colors */
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.green-text {
+    color: #4caf50;
+}
