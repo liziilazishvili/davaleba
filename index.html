@@ -5,112 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ვებ დეველოპმენტი</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #28515B;
-            text-align: center;
-        }
-
-
-        .header {
-            width: 100%;
-            background-color: #f9f9f9;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-        }
-
-
-        nav {
-            display: flex;
-            gap: 40px;
-        }
-
-
-        .nav-item {
-            font-size: 36px;
-            font-family: 'AALiteraturuli bold', sans-serif;
-            font-weight: 700;
-            text-decoration: none;
-            padding: 10px 0;
-        }
-
-
-        .nav-item.active {
-            color: rgba(40, 81, 91, 1);
-        }
-
-
-        .nav-item.home {
-            color: rgba(111, 173, 187, 1);
-        }
-
-
-        .content-wrapper {
-            display: inline-block;
-            width: 80%;
-            text-align: left;
-            margin: 40px 0;
-        }
-
-
-        .news-image, .news-description {
-            display: inline-block;
-            vertical-align: top;
-        }
-
-
-        .news-image {
-            width: 300px;
-            margin-right: 20px;
-        }
-
-
-        .news-description {
-            width: calc(100% - 340px); /* Adjust width to fit beside the image */
-            font-size: 30px;
-            color: #197CA4;
-            font-family: 'Abel', sans-serif;
-        }
-
-
-        .header-title {
-            color: #89006C;
-            font-size: 64px;
-            font-family: 'AALiteraturuli bold';
-            font-weight: 700;
-            margin: 20px 0;
-            padding: 20px;
-            background: linear-gradient(90deg, #f9f9f9 0%, #e0f7fa 100%);
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            display: inline-block;
-        }
-    </style>
 </head>
 <body>
-    <div class="header-title">ვებ დეველოპმენტი</div>
-
-
-    <div class="header">
-        <nav>
-            <a href="index.html" class="nav-item home">მთავარი</a>
-            <a href="news.html" class="nav-item active">სიახლეები</a>
-            <a href="contact.html" class="nav-item">კონტაქტი</a>
-        </nav>
-    </div>
-
-
-    <div class="content-wrapper">
-        <img class="news-image" src="https://www.netleafinfosoft.com/our-blog/wp-content/uploads/2020/01/web-development-company.jpg" alt="Web Development Image"/>
-        <div class="news-description">
-            ვებ დეველოპმენტი არის IT-ის ერთ-ერთი ყველაზე მნიშვნელოვანი ნაწილი, რადგან ის ქმნის ხიდს მომხმარებელსა და პროვაიდერს შორის. ამასთანავე, ის ფუნქციონალის მეშვეობით, გვეხმარება რთული ამოცანების ავტომატიზირებაში.
+    <!-- Page Header -->
+    <header>
+        <div class="header-title">ვებ დეველოპმენტი</div>
+        <div class="header">
+            <nav>
+                <a href="index.html" class="nav-item home">მთავარი</a>
+                <a href="news.html" class="nav-item active">სიახლეები</a>
+                <a href="contact.html" class="nav-item">კონტაქტი</a>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content-wrapper">
+            <img class="news-image" src="https://www.netleafinfosoft.com/our-blog/wp-content/uploads/2020/01/web-development-company.jpg" alt="Web Development Image"/>
+            <div class="news-description">
+                ვებ დეველოპმენტი არის IT-ის ერთ-ერთი ყველაზე მნიშვნელოვანი ნაწილი, რადგან ის ქმნის ხიდს მომხმარებელსა და პროვაიდერს შორის. 
+                ამასთანავე, ის ფუნქციონალის მეშვეობით, გვეხმარება რთული ამოცანების ავტომატიზირებაში.
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 ვებ დეველოპმენტი. ყველა უფლება დაცულია.</p>
+    </footer>
 </body>
 </html>
-
-
