@@ -1,22 +1,22 @@
-/* Import Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
-/* Import Web Fonts */
+
 @import url("//cdn.web-fonts.ge/fonts/bpg-gloria/css/bpg-gloria.min.css");
 @import url("//cdn.web-fonts.ge/fonts/bpg-nino-mtavruli/css/bpg-nino-mtavruli.min.css");
 @import url("//cdn.web-fonts.ge/fonts/aaliteraturuli-bold/css/aaliteraturuli-bold.min.css");
 
 body {
     font-family: "Poppins", sans-serif;
-    color: #28515B; /* Updated color */
+    color: #28515B; 
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-/* Header */
+
 .header {
     width: 100%;
     background-color: #f9f9f9;
@@ -25,7 +25,7 @@ body {
     justify-content: center;
 }
 
-/* Navigation */
+
 nav {
     display: flex;
     gap: 40px;
@@ -47,7 +47,7 @@ nav {
     color: rgba(111, 173, 187, 1);
 }
 
-/* Content Wrapper */
+
 .content-wrapper {
     display: inline-block;
     width: 80%;
@@ -55,7 +55,7 @@ nav {
     margin: 40px 0;
 }
 
-/* News Image and Description */
+
 .news-image, .news-description {
     display: inline-block;
     vertical-align: top;
@@ -67,13 +67,13 @@ nav {
 }
 
 .news-description {
-    width: calc(100% - 340px); /* Adjust width to fit beside the image */
+    width: calc(100% - 340px); 
     font-size: 30px;
     color: #197CA4;
     font-family: 'Abel', sans-serif;
 }
 
-/* Header Title */
+
 .header-title {
     color: #89006C;
     font-size: 64px;
@@ -87,7 +87,7 @@ nav {
     display: inline-block;
 }
 
-/* Additional Font-specific Classes */
+
 .kablammo {
     font-family: "Kablammo", system-ui;
 }
